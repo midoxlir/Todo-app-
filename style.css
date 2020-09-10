@@ -57,10 +57,10 @@ h1 {
   color: black;
   background-color: beige;
   border: none;
+  outline: none;
 }
 #todo-input {
   width: 26em;
-  outline: none;
 }
 #todo-input::placeholder {
   color: rgb(42, 42, 42);
@@ -70,7 +70,6 @@ h1 {
 #todo-button {
   transition: all 0.25s ease;
   cursor: pointer;
-  outline: none;
 }
 #todo-button:hover {
   color: white;
